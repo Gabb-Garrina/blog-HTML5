@@ -1,0 +1,148 @@
+/*tamaño de letra por default*/
+/*lap font-size: 16px 1em = 16px
+ moviles font-size: 20px 1em=20px*/
+
+/* Selector de etiqueta */
+header, footer {
+	/*color de fondo*/
+	/*background-color: green;*/
+	/*background-color: rgb(89, 100, 190);*/
+	/*background-color: rgba(89, 100, 190, 0.7);*/
+	background-color: #3B2F63;
+}
+h1 {
+	/*color de fuente*/
+	color: #FFFFFF;
+	text-shadow: -4px 3px 0px rgba(170, 177, 202, 1);
+	-webkit-text-shadow: -4px 3px 0px rgba(170, 177, 202, 1);
+	-o-text-shadow: -4px 3px 0px rgba(170, 177, 202, 1);
+	-ms-text-shadow: -4px 3px 0px rgba(170, 177, 202, 1);
+	-moz-text-shadow: -4px 3px 0px rgba(170, 177, 202, 1);
+}
+nav, footer {
+	color: #c7c0de;
+}
+/*selector de id*/
+#conocenos {
+	background-color: #c7c0de;
+	color: #3B2F63;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 2%;
+}
+#bienvenida {
+	background-image: url("../imagenes/portada.jpg");
+	/*imagen cubre toda la caja*/
+	background-size: cover;
+	/*la imagen no se repita*/
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: green;
+	text-align: center;
+	font-size: 2em;
+}
+/*selectores de clase*/
+.servicio {
+	padding: 0% 5% 0% 5%;
+}
+#nuestros-servicios {
+	background-image: url("../imagenes/fondo.png");
+	background-attachment: fixed;
+	text-align: center;
+	font-size: 1.2em;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+/*selector de descendientes*/
+#powered ul li a {
+	color: #c7c0de;
+}
+#titulo {
+	font-size: 0.8em;
+}
+#menu ul li {
+	text-align: center;
+}
+img, video {
+	/*solo se usa para imagenes y videos*/
+	max-width: 100%;
+}
+#menu ul li a {
+	color: #C7C0DE;
+	text-decoration: none;
+	display: inline-block;
+}
+
+#menu ul {
+	margin: 0px;
+}
+
+#conocenos h3 {
+	margin: 0px;
+}
+
+footer {
+	padding: 3%;
+}
+#siguenos, #suscribir, #powered {
+	padding: 1% 4% 1% 4%;
+}
+
+/*galeria*/
+#galeria {
+	height: 750px;
+}
+#galeria h2 {
+	text-align: center;
+	color: #1E1E1C;
+	font-size: 3em;
+	margin-top: 0px;
+}
+
+#contenedor-imagen {
+	display: inline-block;
+	width: 40%;
+	border-radius: 1em;
+	border: solid 2px #C7C0DE;
+	background-color: #C7C0DE;
+	padding: 2%;
+}
+
+#contenedor-preview {
+	display: inline-block;
+	width: 15%;
+	vertical-align: top;
+	margin-left: 10%;
+}
+
+#contenedor-preview img {
+	border-radius: 1em;
+	border: solid 2px #C7C0DE;
+	background-color: #C7C0DE;
+	padding: 5%;
+}
+
+#descripcion-imagen {
+	color: #FFFFFF;
+	padding: 4%;
+	background-color: #3B2F63;
+	opacity: 0.7;
+	margin: 0px 5% 5% 5%;
+}
+
+/* pseudoselector focus */
+#email {
+	width: 60px;
+}
+
+#email:focus {
+	width: 80%;
+}
+/* trancisiones */
+#email, #menu ul li a, .servicio img, #siguenos img {
+	transitions: all 2s ease 0s;
+	-moz-transitions: all 2s ease 0s;
+	-ms-transitions: all 2s ease 0s;
+	-o-transitions: all 2s ease 0s;
+	-webkit-transitions: all 2s ease 0s;
+}

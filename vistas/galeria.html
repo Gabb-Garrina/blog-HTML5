@@ -1,0 +1,56 @@
+<!-- Este es un comentario Indicamos que tipo de archivo -->
+<!DOCTYPE html>
+<html>
+	<!-- head contiene la configuracion de la página -->
+	<HEAD>
+		<title>Blog</title>
+		<!-- Encoding -->
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<!-- Importar una hoja de estilos -->
+		<link href="../css/normalize.css" rel="stylesheet" />
+		<link href="../css/global.css" rel="stylesheet"/>
+		<!-- Estilos para cada dispositivo -->
+		<link href="../css/lap.css" rel="stylesheet" media="screen and (min-width: 800px)"/>
+		<link href="../css/celular.css" rel="stylesheet" media="screen and (max-width: 800px)"/>
+		<link href="../css/estilos_galeria.css" rel="stylesheet"/>
+
+		<script src="../javascript/jquery-1.10.2.min.js"></script>
+		<script src="../javascript/redes.js"></script>
+		<script src="../javascript/galeria.js"></script>
+
+	</heAd>
+	<!-- contenido de la pagina -->
+	<body>
+		<header>
+
+		</header>
+
+		<section id="galeria">
+			<h2>Galería</h2>
+			<div id="contenedor-imagen">
+				<img src="../imagenes/galeria/principal1.jpg"/>
+				<div id="descripcion-imagen">
+					Unos globos
+				</div>
+			</div>
+			<div id="contenedor-preview">
+				<img data-ruta-principal="../imagenes/galeria/principal1.jpg" data-descripcion="Unos globos"src="../imagenes/galeria/preview1.jpg"/>
+				<img data-ruta-principal="../imagenes/galeria/principal2.jpg" data-descripcion="El mounstruo verde" src="../imagenes/galeria/preview2.jpg"/>
+				<img data-ruta-principal="../imagenes/galeria/principal3.jpg" data-descripcion="Peces"src="../imagenes/galeria/preview3.jpg"/>
+			</div>
+		</section>
+
+		<footer>
+			<div id="redes-fijas">
+				<div id="redes-imagenes">
+					<img src="../imagenes/Facebook.png"/>
+					<img src="../imagenes/GooglePlus.png"/>
+					<img src="../imagenes/Twitter.png"/>
+					<img src="../imagenes/github.png"/>
+				</div>
+				<a id="enlace-cerrar" href="#">cerrar</a>
+			</div>
+		</footer>
+	</body>
+</html>
